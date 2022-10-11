@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, #33FF93 , #33E3FF );
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.calculator{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(12, 102, 98);
+    background-color: aliceblue;
+ 
+}
+
+
+
+
+
+#display{
+    color: black;
+    margin: 0 10px;
+    height: 120px;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+#clear{
+ background-color: darkmagenta;
+ color: crimson;
+}
+
+.btn-number{
+    background-color: #33E3FF;
+    color: black;
+}
+
+.btn-operador{
+    background-color:#33FF93;
+    color:darkblue;
+}
+
+.btn-equal{
+    background-color:#33a3ff;
+    color:darkblue;
+}
+
+.theme-toggler{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: rgb(240, 199, 17);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.theme-toggler .active{
+    color: chocolate;
+}
+
+#equal{
+    height: 130px;
+
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;  
+}

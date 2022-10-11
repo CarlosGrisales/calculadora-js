@@ -17,7 +17,6 @@ button.forEach((items)=>{
             display.innerText = "NULL";
             setTimeout(()=>(display.innerText = ""), 2000);
         } else{display.innerText += items.id}
-
     }
 });
 
